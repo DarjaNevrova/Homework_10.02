@@ -55,8 +55,7 @@ if (n > m) {
             odd = odd + i;
         }
     }
-}
-else {
+} else {
     for (let i = n; i <= m; i++) {
         if (i % 2 === 0) {
             even = even + i;
